@@ -26,7 +26,7 @@ body{
 }
 
 header{
-    width: 85%;
+    width: 80%;
     margin: auto;
 }
 
@@ -125,5 +125,41 @@ header a{
 .top_main_title span{
     font-size: 20px;
     color: rgba(128, 128, 128, 1);
-    padding-bottom: 5%;
+}
+
+.middle_main{
+    width: 100%;
+}
+
+.container_column{
+    width: 80%;
+    margin: auto;
+    height: 200px;
+    background-color: grey;
+}
+
+.column{
+    width: 28%;
+    height: 200px;
+    float: left;
+    margin-left: 4%;
+}
+
+.column_left{
+    /* height: 10px; */
+}
+
+.img_left{
+    height: 200px;
+    width: 100%;
+}
+
+.img_center{
+    height: 200px;
+    width: 100%;
+}
+
+.img_right{
+    height: 200px;
+    width: 100%;
 }
