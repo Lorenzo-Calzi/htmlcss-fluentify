@@ -134,21 +134,14 @@ header a{
 .container_column{
     width: 80%;
     margin: auto;
-    height: 700px;
     padding-top: 40px;
-    /* background-color: grey; */
 }
 
 .column{
     width: 28%;
-    height: 400px;
     float: left;
-    /* background-color: red; */
     margin-left: 4%;
-}
-
-.column_left{
-    /* height: 10px; */
+    margin-bottom: 70px;
 }
 
 .img_left{
@@ -190,4 +183,50 @@ header a{
     text-align: center;
     color: rgba(128, 128, 128, 1);
     font-size: 1.1rem;
+}
+
+.bottom_main{
+    width: 100%;
+    /* background-color: red; */
+    height: 500px;
+}
+
+.container_bottom{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    /* background-color: green; */
+}
+
+.bottom_left{
+    width: 40%;
+    margin-left: 7%;
+    float: left;
+}
+
+.img_bottom{
+    height: 500px;
+    width: 100%;
+}
+
+.bottom_right{
+    width: 30%;
+    margin-top: 4%;
+    margin-left: 7%;
+    float: left;
+}
+
+.bottom_title{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.bottom_right p{
+    font-size: 17px;
+    color: rgba(128, 128, 128, 1);
+    margin-bottom: 20px;
+}
+
+.bottom_right a{
+    font-size: 15px;
 }
