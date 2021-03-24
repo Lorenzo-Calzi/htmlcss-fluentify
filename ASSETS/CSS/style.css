@@ -12,8 +12,12 @@
 
 .container_site{
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-color: #0C325A;
+    background-image: url('/ASSETS/img/background-header.png');
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 110% 110%;
 }
 
 header{
@@ -75,4 +79,22 @@ header a{
     background-color: #7CBB02;
 }
 
+.title{
+    width: 60%;
+    font-size: 35px;
+    color: white;
+    padding-top: 20%;
+    margin-bottom: 40px;
+}
+
+#button_title>a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase; 
+    background-color: #7CBB02;
+    padding: 25px ;
+    margin-left: 0;
+    border-radius: 5px;
+    font-size: 15px;
+}
 
