@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .clearfix::after{
@@ -10,7 +11,11 @@
     clear: both;
 }
 
-.container_site{
+body{
+    min-height: 1400px;
+}
+
+.container_header{
     width: 100%;
     height: 600px;
     background-color: #0C325A;
@@ -81,10 +86,11 @@ header a{
 
 .title{
     width: 60%;
-    font-size: 35px;
+    font-size: 33px;
     color: white;
-    padding-top: 20%;
+    padding-top: 18%;
     margin-bottom: 40px;
+    line-height: 80px;
 }
 
 #button_title>a{
@@ -98,3 +104,26 @@ header a{
     font-size: 15px;
 }
 
+.top_main{
+    width: 100%;
+    background-color: rgba(211, 211, 211, 1);
+}
+
+.top_main_title{
+    width: 60%;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+.top_main_title h3{
+    padding-top: 5%;
+    padding-bottom: 1%;
+    font-size: 28px;  
+}
+
+.top_main_title span{
+    font-size: 20px;
+    color: rgba(128, 128, 128, 1);
+    padding-bottom: 5%;
+}
