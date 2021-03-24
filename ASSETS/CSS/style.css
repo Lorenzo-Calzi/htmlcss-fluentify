@@ -10,7 +10,7 @@
     clear: both;
 }
 
-.container_main{
+.container_site{
     width: 100%;
     height: 500px;
     background-color: #0C325A;
@@ -18,26 +18,61 @@
 
 header{
     width: 85%;
-    height: 100px;
     margin: auto;
-    background-color: red;
+}
+
+.container_nav{
+    line-height: 60px;
+    height: 60px;
 }
 
 header a{
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 10px;
+    margin-left: 20px;
+    font-size: 12px;
 }
 
 .logo{
     width: 15%;
     padding-top: 20px;
+    float: left;
+}
+
+.left_menu{
+    float: left;
 }
 
 .left_menu ul li{
     list-style: none;
     display: inline-block;
+    margin-top: 3%;
 }
 
-.left_menu>ul>li
+.right_menu{
+    float: left;
+    margin-left: 3%;
+}
+
+.right_menu ul li{
+    list-style: none;
+    display: inline-block; 
+    margin-top: 3%; 
+}
+
+.button{
+    padding: 8px 24px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.button_white{
+    border: 1px solid white;
+}
+
+.button_green{
+    background-color: #7CBB02;
+}
+
+
