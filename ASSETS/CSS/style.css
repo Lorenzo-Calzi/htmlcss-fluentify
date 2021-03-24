@@ -84,7 +84,7 @@ header a{
     background-color: #7CBB02;
 }
 
-.title{
+.header_title{
     width: 60%;
     font-size: 33px;
     color: white;
@@ -134,14 +134,16 @@ header a{
 .container_column{
     width: 80%;
     margin: auto;
-    height: 200px;
-    background-color: grey;
+    height: 700px;
+    padding-top: 40px;
+    /* background-color: grey; */
 }
 
 .column{
     width: 28%;
-    height: 200px;
+    height: 400px;
     float: left;
+    /* background-color: red; */
     margin-left: 4%;
 }
 
@@ -152,14 +154,40 @@ header a{
 .img_left{
     height: 200px;
     width: 100%;
+    margin-bottom: 15px;
 }
 
 .img_center{
     height: 200px;
     width: 100%;
+    margin-bottom: 15px;
 }
 
 .img_right{
     height: 200px;
-    width: 100%;
+    width: 100%; 
+    margin-bottom: 15px;
+}
+
+.column_title{
+    font-size: 25px;
+    text-align: center;
+    color: rgba(124, 187, 2, 1);
+}
+
+.container_column h3::after{
+    content: "";
+    width: 25%;
+    height: 1px;
+    background-color: black;
+    display: block;
+    margin-top: 25px;
+    margin-left: 37%;
+    margin-bottom: 25px;
+}
+
+.column_paragraph{
+    text-align: center;
+    color: rgba(128, 128, 128, 1);
+    font-size: 1.1rem;
 }
